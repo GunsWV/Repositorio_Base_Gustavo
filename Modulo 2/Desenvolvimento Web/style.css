@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+    font-family: "Archivo", sans-serif;
+}
+
+header {
+    background-color: #2e2c22;
+    color: #E63946;
+    text-align: center;
+}
+
+main {
+    background-color: #e23c00;
+    color: #000000;
+    text-align: center;
+}
+
+
+footer{
+    background-color: #000000;
+    color: #E63946;
+    text-align: center;
+}
+
+menu {
+
+    text-align: left;
+
+}
