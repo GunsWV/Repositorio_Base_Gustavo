@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">]
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Projeto Flask - Aula 6</title>
+</head>
+<body>
+
+    <header>
+
+        <h1>Aprecie nossos pratos aqui!</h1>
+        
+
+    </header>
+
+    <main>
+        <menu>
+            <a href="{{ url_for('index') }}">HOME</a>
+            <a href="{{ url_for('maispedidos') }}">MAIS PEDIDOS</a>
+            <a href="{{ url_for('faleconosco') }}">FALE CONOSCO</a>
+        </menu>
+        
+<center>
+        <table>
+            <tr>    
+                <td>Espetinhos</td>
+                <td>Crepe</td>
+           </tr>
+           <tr>
+                <td><img src="{{ url_for('static',  filename='img/churras.jpg') }}" width="350px" height="300px" ></td>
+                <td><img src="{{ url_for('static',  filename='img/crepe.png') }}" width="350px" height="300px" ></td>
+           </tr>
+
+
+
+
+
+        </table>
+
+</center>
+
+
+
+
+
+
+
+        
+
+    </main>
+    
+    <footer> 
+    
+
+        <P>Desenvolvido por <strong>Gustavo Wissenbach Viana</strong></P>
+        <img src="{{ url_for('static', filename='logo.png') }}" width="250" height="200">
+
+
+    </footer>
+</body>
+</html>

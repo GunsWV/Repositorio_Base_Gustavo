@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">]
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Projeto Flask - Aula 6</title>
+</head>
+<body>
+
+    <header>
+
+        <h1>Veja aqui os melhores e mais pedidos!</h1>
+        
+
+    </header>
+
+    <main>
+        <menu>
+            <a href="{{ url_for('index') }}">HOME</a>
+            <a href="{{ url_for('cardapio') }}">VEJA NOSSO CARDÁPIO</a>
+            <a href="{{ url_for('faleconosco') }}">FALE CONOSCO</a>
+        </menu>
+
+       
+
+    </main>
+    
+    <footer> 
+    
+
+        <P>Desenvolvido por <strong>Gustavo Wissenbach Viana</strong></P>
+        <img src="{{ url_for('static', filename='logo.png') }}" width="250" height="200">
+
+
+    </footer>
+</body>
+</html>

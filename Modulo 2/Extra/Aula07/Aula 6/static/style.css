@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+    font-family: "Archivo", sans-serif;
+}
+
+header {
+    background-color: #2e2c22;
+    color: #E63946;
+    text-align: center;
+    padding: 2rem;
+}
+
+main {
+    background-color: #e23c00;
+    color: #000000;
+    text-align: center;
+    padding:2rem;
+}
+
+
+footer{
+    background-color: #000000;
+    color: #E63946;
+    text-align: center;
+}
+
+menu {
+
+    text-align: left;
+
+}
+
+h2 {
+
+    padding: 1%;
+    text-align: center;
+
+}
+
+
+p{
+    padding: 0.5%;
+
+}
+
+a{
+display: inline-block;
+padding: 10px 20px;
+background-color: #202020;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
+transition: background-color 0.3s ease;
+}
+
+a:hover {
+background-color: #F22D1B;
+}
